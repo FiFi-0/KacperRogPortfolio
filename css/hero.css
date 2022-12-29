@@ -1,0 +1,42 @@
+.hero {
+  background-image: url(/src/1920x1200.jpg);
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-title, .hero-subTitle {
+  font-family: "Times New Roman", Times, serif;
+  color: var(--WhiteFont);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 42px;
+  text-align: center;
+}
+
+.hero-title {
+  margin-top: 40vh;
+}
+
+.hero-subTitle {
+  margin-top: 20vh;
+  font-size: 28px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+
+.social-icons a {
+  color: var(--Icons);
+  font-size: 32px;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: var(--IconsHover);
+}/*# sourceMappingURL=hero.css.map */

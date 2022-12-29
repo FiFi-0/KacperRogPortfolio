@@ -1,0 +1,27 @@
+.footer {
+  background-color: #333333;
+  color: var(--WhiteFont);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.return-top {
+  background-color: #333333;
+  border: none;
+  color: var(--WhiteFont);
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+.return-top:hover {
+  background-color: var(--FooterBackground);
+}
+
+.dark-footer p {
+  margin: 0;
+}/*# sourceMappingURL=footer.css.map */
